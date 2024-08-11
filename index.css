@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased ;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+h1{
+  font-size: 42px;
+  color: var(--text-primary);
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+
+.accordion-simple > .active{
+  background-color: var(--white);
+}
+
+.accordion__faq .inactive{
+  display: none;
+}
+
+
+.accordion__faq > div{
+  background-color: var(--white);
+  margin-bottom: 20px;
+  padding: 0 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.accordion__title{
+  color:var(--text-secondary);
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.accordion__faq-heading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
